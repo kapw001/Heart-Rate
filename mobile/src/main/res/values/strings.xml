@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Heart Rate</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+
+    <string-array name="heartrateupdatetime">
+
+        <item>100 Sec</item>
+        <item>1 Min</item>
+        <item>10 Min</item>
+        <item>30 Min</item>
+        <item>1 Hour</item>
+        <item>2 Hour</item>
+
+    </string-array>
+
+    <string name="rationale_location_contacts">This app needs access to your location to know where you are.</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <!-- this is the collapsed layout -->
+        <RelativeLayout
+            android:id="@+id/layoutCollapsed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <View
+                android:id="@+id/collapsed_iv"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/round"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/collapsed_iv1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@drawable/ic_check_circle_black_24dp"
+                android:tint="@color/green"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_check_circle_black_24dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</FrameLayout>
